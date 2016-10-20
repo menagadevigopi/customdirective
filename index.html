@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Custom Directives</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body  ng-app ="myApp" class="container">
+<section ng-controller="myController">
+    <h1>Web developement</h1>
+    <h3>List of Frameworks</h3>
+	<ul my-repeat="list in lists" >
+		<a href="#" ><li>{{list}}</li></a>
+	</ul>
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

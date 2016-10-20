@@ -1,0 +1,19 @@
+.container{
+	width: 400px;
+	margin: 0 auto;
+
+}
+h1{
+	color: #9647ef;
+}	
+h3{
+	color: #478def;
+
+}
+li{
+	margin: 10px;
+	color: #80caed;
+}
+a{
+	text-decoration: none;
+}
